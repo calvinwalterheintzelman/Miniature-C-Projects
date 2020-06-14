@@ -1,0 +1,115 @@
+No default breakpoint address now.
+No symbol table is loaded.  Use the "file" command.
+Undefined command: "breakpoint".  Try "help".
+No executable file now.
+No symbol file now.
+Undefined command: "ls".  Try "help".
+Already logging to gdb.2.log.
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+Starting program:  
+No executable file specified.
+Use the "file" or "exec-file" command.
+No executable file now.
+No symbol file now.
+Starting program:  
+No executable file specified.
+Use the "file" or "exec-file" command.
+Starting program:  prime_factor
+No executable file specified.
+Use the "file" or "exec-file" command.
+Reading symbols from prime_factor...done.
+Starting program: /home/shay/a/cheintze/264/hw01/prime_factor prime_factor
+[Inferior 1 (process 29897) exited normally]
+Breakpoint 1 at 0x400601: file prime_factor.c, line 17.
+Starting program: /home/shay/a/cheintze/264/hw01/prime_factor prime_factor
+
+Breakpoint 1, print_prime_factors (n=6) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=1) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=0) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=48) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=49) at prime_factor.c:17
+17	    if(n <= 0) {
+21	        printf("Prime factors of %d:", n);
+Execute until the program reaches a source line greater than the current
+or a specified location (same args as break command) within the current frame.
+23	        if(n == 1) {
+Starting program: /home/shay/a/cheintze/264/hw01/prime_factor prime_factor
+
+Breakpoint 1, print_prime_factors (n=6) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=1) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=0) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=48) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=49) at prime_factor.c:17
+17	    if(n <= 0) {
+Execute until the program reaches a source line greater than the current
+or a specified location (same args as break command) within the current frame.
+main (argc=2, argv=0x7fffffffe388) at test_prime_factor.c:12
+12		print_prime_factors(74); // 2 37
+
+Breakpoint 1, print_prime_factors (n=74) at prime_factor.c:17
+17	    if(n <= 0) {
+21	        printf("Prime factors of %d:", n);
+23	        if(n == 1) {
+28	            while(n % 2 == 0) {
+34	            for(int i = 3; i * i < n; i += 2) {
+37	                while(n % i == 0) {
+Execute until the program reaches a source line greater than the current
+or a specified location (same args as break command) within the current frame.
+Starting program: /home/shay/a/cheintze/264/hw01/prime_factor prime_factor
+
+Breakpoint 1, print_prime_factors (n=6) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=1) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=0) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=48) at prime_factor.c:17
+17	    if(n <= 0) {
+Continuing.
+
+Breakpoint 1, print_prime_factors (n=49) at prime_factor.c:17
+17	    if(n <= 0) {
+print_prime_factors (n=49) at prime_factor.c:34
+34	            for(int i = 3; i * i < n; i += 2) {
+37	                while(n % i == 0) {
+32	
+33	            // Try all odd integers, from 3 to sqrt(n)
+34	            for(int i = 3; i * i < n; i += 2) {
+35	
+36	                // Print all occurrences of i in the prime factorization
+37	                while(n % i == 0) {
+38	                    printf(" %d", i);
+39	                    n /= i; // Divide n by i (integer division)
+40	                }
+41	            }

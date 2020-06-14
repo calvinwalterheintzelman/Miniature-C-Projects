@@ -1,0 +1,57 @@
+I'm itchy!!!noskip
+This should be on a line by itself.
+4206969
+There should be one % sign; is there?
+YES! THERE IS ONLY ONE!!!!
+ %z %a %D %~ %C % %. %
+This should print one and an exclamation mark: 1!
+This should print ten, nine, eleven, and an exclamation mark: 10 9 11!
+Print negative one, nine, ten, eleven, zero, and a tilde: -1 -9 -10 -11 0~
+(This is printf) The highest int is: 2147483647.
+(This is printf) The lowest int is: -2147483648.
+(back to mintf) highest int: 2147483647.
+lowest int: -2147483648.
+
+hex time!
+highest int: 0x7fffffff.
+lowest int: -0x80000000.
+zero: 0x0.
+one: 0x1.
+negative one: -0x1.
+
+_BINARY_
+high: 0b1111111111111111111111111111111.
+low: -0b10000000000000000000000000000000.
+zero: 0b0.
+one: 0b1.
+negative one: -0b1.
+
+$doubles$
+high: $2147483647.99.
+low: -$2147483648.99.
+zero: $0.00.
+one: $1.00.
+negative one: -$1.00.
+$265.44 == $265.44, -$345.54 == -$345.54, $3.21 == $3.21.
+$40.00 == $40.00, -$765.99 == -$765.99, $9.97 == $9.97.
+
+~Strings~
+Tissue Paper. == Tissue Paper.
+There should be 2 empty lines following this line.
+
+
+there was exactly two lines.
+Each string is a word or space.
+
+/Characters\
+Calvin
+The last letter of the alphabet is (capitalized): Z! Yay! :D
+
+This should have all 6 percent signs (%) options together. It cost me $2.40, so my computer bytes say 0xf0 or 0b11110000 cents.
+
+This has too many parameters.
+
+oDdBaLlS
+char a == a, 97 == 97
+char c == c, 0x63 == 0x63
+char e == e, 0b1100101 == 0b1100101
